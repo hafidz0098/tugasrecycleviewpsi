@@ -26,8 +26,9 @@ class MainActivity : AppCompatActivity() {
 
         var data = ArrayList<Mahasiswa>()
         data.add(Mahasiswa(R.drawable.alfian, "Nama : Alfian Tri Wahyu","NIM : 205150201111049", "Prodi : Teknik Informatika"))
-        data.add(Mahasiswa(R.drawable.alfian, "Nama : Hafidz","NIM : 205150201111064", "Prodi : Teknik Informatika"))
-        data.add(Mahasiswa(R.drawable.alfian, "Nama : Patrick Juan","NIM : 20515020011106", "Prodi : Teknik Informatika"))
+        data.add(Mahasiswa(R.drawable.hafidz, "Nama : Hafidz","NIM : 205150201111064", "Prodi : Teknik Informatika"))
+        data.add(Mahasiswa(R.drawable.patrick, "Nama : Patrick Juan","NIM : 20515020011106", "Prodi : Teknik Informatika"))
+
 
         adapter = MahasiswaAdapter(data)
     }
